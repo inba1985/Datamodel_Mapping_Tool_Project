@@ -1,5 +1,11 @@
 package com.datamodelmaptool.DatamodelMappingTool.repository;
 
-public interface UserRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.datamodelmaptool.DatamodelMappingTool.model.User;
+
+public interface UserRepository extends JpaRepository<User, Long>{
+	
+	
 
 }
