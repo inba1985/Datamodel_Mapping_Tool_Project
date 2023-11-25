@@ -6,7 +6,9 @@ export default function Navbar() {
 
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Data Model Mapping Tool</a>
+    <a className="navbar-brand" href="#">
+      Data Model Mapping Tool
+      </a>
 
     <button className="navbar-toggler" type="button" 
     data-bs-toggle="collapse" 
